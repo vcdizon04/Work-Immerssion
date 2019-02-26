@@ -1,14 +1,51 @@
-<ion-header>
-  <ion-navbar>
+<ion-header no-border>
+  <ion-navbar color="primary" transparent>
     <ion-title>
-      Ionic Blank
+      Work Immerssion
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding class="bg-image">
+  <ion-grid>
+    <ion-row text-center>
+      <ion-col>
+        <div (click)="goTo('rationale')" class="box-white animate-grow">
+          <img src="assets/imgs/mainicons/Rationale.jpg" alt="">
+          <!-- <p>Rationale</p> -->
+        </div>
+      </ion-col>
+      <ion-col>
+        <div (click)="goTo('descProgram')" class="box-white animate-grow">
+          <img src="assets/imgs/mainicons/Description of the Program.jpg" alt="">
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row text-center>
+      <ion-col>
+        <div (click)="goTo('defitionTerms')" class="box-white animate-grow">
+          <img src="assets/imgs/mainicons/Definition of Terms.jpg" alt="">
+          <!-- <p>Rationale</p> -->
+        </div>
+      </ion-col>
+      <ion-col>
+        <div  (click)="goTo('lessons')"class="box-white animate-grow">
+          <img src="assets/imgs/mainicons/Lessons.jpg" alt="">
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row text-center>
+      <ion-col>
+        <div (click)="goTo('do')" class="box-white animate-grow">
+          <img src="assets/imgs/mainicons/DO's.jpg" alt="">
+          <!-- <p>Rationale</p> -->
+        </div>
+      </ion-col>
+      <ion-col>
+        <div  (click)="goTo('dont')" class="box-white animate-grow">
+          <img src="assets/imgs/mainicons/DONT'S.jpg" alt="">
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

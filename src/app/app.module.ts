@@ -6,6 +6,12 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { SliderPageModule } from '../pages/slider/slider.module';
+import { RationalePageModule } from '../pages/rationale/rationale.module';
+import { DescProgramPageModule } from '../pages/desc-program/desc-program.module';
+import { DefitionTermsPageModule } from '../pages/defition-terms/defition-terms.module';
+import { LessonsPageModule } from '../pages/lessons/lessons.module';
+import { LessonViewPageModule } from '../pages/lesson-view/lesson-view.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +20,13 @@ import { HomePage } from '../pages/home/home';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    SliderPageModule,
+    RationalePageModule,
+    DescProgramPageModule,
+    DefitionTermsPageModule,
+    LessonsPageModule,
+    LessonViewPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
