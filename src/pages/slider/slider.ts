@@ -38,22 +38,22 @@ export class SliderPage {
           { file: 'dos/DO4.png',description: 'Dress appropriately and adopt a similar degree of formality.'}, 
          { file: 'dos/DO5.png', description: 'Offer to help others if there’s aything you might be able to do after you finish your task.'}, 
          { file: 'dos/DO 6.jpg', description: 'Follow the organization rules and regulations.'}, 
-         { file: 'dos/do7a.png', description: 'Stay positive and enjoy your work immersion.'}, 
+         { file: 'dos/doa7.jpg', description: 'Stay positive and enjoy your work immersion.'}, 
          { file: 'dos/do8.png', description: 'Be familiarize in your work place.'}, 
          { file: 'dos/do9.jpg', description: 'Do have a good communication with the employees.'}, 
          { file: 'dos/do10.png', description: 'Acquire or improve interpersonal skills' }]
     } else if(type === 'dont') {
-      this.title = "Dont's";
+      this.title = "Don'ts";
       this.slides = [
         { file: 'donts/dt1.jpg',description: "Don't sleep during working hours."},
         { file: 'donts/dt 2.jpg',description: "Don't be late on work."}, 
         { file: 'donts/dt3.png',description: "Dont make face and complained with the task given to you."},  
-        { file: 'donts/dt 4.png',description: "Don't be afraud to asked question related to your work specially if it's important."},  
+        { file: 'donts/dt 4.png',description: "Don't be afraid to asked question related to your work specially if it's important."},  
         { file: 'donts/dt 5.jpg',description: "Don't try use equipments without the authorization of the staffs."},  
         { file: 'donts/dt 6.jpg',description: "Don't use gadget during working hours."},  
         { file: 'donts/dt7.jpeg',description: "Don't combine work and personal activities including having excessive visitors at work and personal issues during work time."},  
         { file: 'donts/dt 8.jpeg',description: "Don't complain if being bored and expect to stay until the end of the working day."},  
-        { file: 'donts/dt1.jpg',description: "Don't try to court favour with your boss or immediate supervisors."},  
+        { file: 'donts/dt 9.jpg',description: "Don't try to court favour with your boss or immediate supervisors."},  
         { file: 'donts/dt 10.jpg',description: "Don't engage in idle gossip about other colleagues or your boss or 'bad mouth' them."},  
       ]
     } else if(type === 'Safety in the Workplace') {
@@ -66,7 +66,8 @@ export class SliderPage {
         {file: 'safetyworkplace/5.jpg', description: 'In case of an emergency, you will need to hurry, easy access to the exits. It is also recommended to keep clear access to the device shutoffs in case you need to quickly stop them from working.', title: 'Keep the emergency exits convenient'},
         {file: 'safetyworkplace/6a.png', description: 'To the supervisor information in the workplace about the safeness and hazard risk they must know by the supervisor. They are obligated to ensure the safeness of their employees to have a safe environment and taking care the dangerous condition in the work place.', title: 'Report dangerous (harmful) condition' },
         {file: 'safetyworkplace/7.jpg', description: 'Use wheelbarrow, conveyor belt, crank or forklift to save a time to lift something that is really heavy during your workday.', title: 'Use mechanical aids wherever possible'},
-        {file: 'safetyworkplace/8.jpg', description: 'If you do not have the proper safety equipment for a job, you can get injured. Depending on work, equipment such as earplugs, earmuffs, hard hats, glass mirrors, gloves or a full-face mask greatly reduces the risk of damage to the workplace.', title: 'Wear the Correct Safety Equipment'}
+        {file: 'safetyworkplace/8.jpg', description: 'If you do not have the proper safety equipment for a job, you can get injured. Depending on work, equipment such as earplugs, earmuffs, hard hats, glass mirrors, gloves or a full-face mask greatly reduces the risk of damage to the workplace.', title: 'Wear the Correct Safety Equipment'},
+        {file: 'source.png', description: 'https://www.arbill.com/arbill-safety-blog/bid/182469/top-10-workplace-safety-tips-every-employee-should-know'},
       ]
     } else {
       this.title = 'Work Ethics';
@@ -156,6 +157,9 @@ export class SliderPage {
         Do what’s asked the first time, 
         
         Accept and acknowledge an individuals talents and knowledge 
+        `},
+        {file: 'source.png', description: `
+          https://www.slideshare.net/cokyfauzialfi/work-ethics-a-being-professional
         `},
 
 

@@ -65,6 +65,7 @@ export class LessonViewPage {
         <li>Asked to the supervised to make sure you are doing the job correctly. </li>
         <li>Report all the risks, close to misses and injuries (no matter how small) to your supervisor. </li>
         </ul>
+        <p>Source: <i>http://www.pacu.org.ph/wordpress/wp-content/uploads/2017/06/MsRuthRodriguez_DOLE-BLE-ESPRD-K12WIP.pdf</i></p>
       `
       console.log(this.content);
     } else   if(this.title === 'Confidentiality in the Workplace') {
@@ -85,6 +86,7 @@ export class LessonViewPage {
       <p>Confidential management information includes discussion about employee relations issues, disciplinary actions, impending layoffs/reductions-in-force, terminations, workplace investigations of employee misconduct, etc. While disclose of this information isn’t necessarily “illegal”, it is almost always counterproductive and can seriously damage the collective “psyche” of a workplace</p>
       <h4>BUSINESS INFORMATION:</h4>
       <p>We oftentimes refer to confidential business information as “proprietary information” or “trade secrets”. This refers to information that’s not generally known to the public and would not ordinarily be available to competitors except via illegal or improper means. Common examples of “trade secrets” include manufacturing processes and methods, business plans, financial data, budgets and forecasts, computer programs and data compilation, client/customer lists, ingredient formulas and recipes, membership or employee lists, supplier lists, etc. “Trade secrets” does not include information that a company voluntarily gives to potential customers, posts on its website, or otherwise freely provides to others outside of the company</p>
+      <p>Source: <i>https://workspirited.com/confidentiality-in-workplace</i></p>
       `
     
     }  else if(this.title === 'Effective Conflict Resolution') {
@@ -123,7 +125,11 @@ export class LessonViewPage {
         <p>Demontrating respect for team members rather than resorting to blame game
         For any team to be successful it is criticalthat the team members respect each other.
         Keeping team issue within team
-        Talk issues within the team, talking outside results in conflict escalation</p>                                                        
+        Talk issues within the team, talking outside results in conflict escalation</p>
+        <p>Source:</p>
+        <p><i>https://www.notredameonline.com/resources/negotiations/6-simple-workplace-conflict-resolution-techniques-2/</i></p>
+        <p><i>https://www.slideshare.net/Veron0320/effective-conflict-resolution-and-teamwork-skills</i></p>
+        
 
 
       `
@@ -144,8 +150,10 @@ export class LessonViewPage {
           <p>In this part, you may give an overview of what your portfolio is all about.  You should discuss the things which are expected to be read in your manuscript. In addition, you may give an impression on what you experienced in your practice teaching/work immersion</p>
           <h4>Getting Acquainted with the Business/Office</h4>
           <p>This part contains an introduction about the business/office- its history, environment, staff and the like. Pictures with captions are also required on this part. </p>
-          <h4>Goals and Objectives of the Business/Office<h4>
+          <h4>Goals and Objectives of the Business/Office</h4>
+
           <p>This part contains the goals and objectives of the business/office</p>
+          
           <h4>Organization/Administration of the Business/Office</h4>
           <p>This part contains the organizational structure of the business/office. Pictures of the administrators and staff are mandatory.</p>
           <h4>Business/Office Environment</h4>
@@ -205,7 +213,7 @@ export class LessonViewPage {
         <p>Barangay Clearance</p>
         <p>Daily Time Record</p>
       </ul>
-     
+      <p>Source: <i>https://www.datafilehost.com/d/e9a8bf96?fbclid=IwAR2eGVnNx1MFfU9KIu2TYhuIYEqhNeGe2-b2MxoOldh4Qmaekjb7ptTG_ws</i></p>
 
       `
     } else if(this.title === 'Resume Format') {
@@ -235,6 +243,7 @@ export class LessonViewPage {
           <li>Training/ Seminars</li>
           <li>Character references</li>
         </ul>
+        <p>Source: <i>https://depedshs.blogspot.com/2017/10/shs-work-immersion-resume-format.html</i></p>
       `
     } else if(this.title === 'Application Letter') {
       this.content = `
@@ -314,16 +323,77 @@ export class LessonViewPage {
           Alternatively, you can print out your letter and sign your name by hand if you wish. Although with this method, you will have to scan your letter back into your computer.A signature is not always required.</li>
 
 
-        </ol>        
+        </ol>
+        <p>Source: <i>https://www.wikihow.com/Write-a-Letter-of-Application-for-a-Job</i></p>
       `
     } else {
       this.content = `
         <h4> Barangay Clearance </h4>
         <img src="assets/imgs/requirements/BARANGAY CLEARANCE.jpg">
+        <p>Before you can get a Postal ID or a Mayor’s Permit, you have to get a Barangay Clearance first. This is one of the documents that is in demand in transacting with government offices. Moreover, this is commonly requested for ID application, employment requirements, Affidavits, and other legal transactions.</p>
+        <p>This document certifies that the person is a good resident    in a barangay and has a good moral character. It also signifies that the applicant does not have any negative record. No wonder, this is necessary in any official transaction.</p>
+        <h5>Requirements</h5>
+        <p>There are a few requirements for Barangay Clearance application. Here they are:</p>
+        <ul>
+          <li>Application form</p>
+          <li>Application fee (this varies per Barangay)</p>
+          <li>Recent Community Tax Certificate or Cedula</p>
+        </ul>
+        <h5>Steps</h5>
+        <p>Here are the steps of the application procedure:</p>
+        <ul>
+          <li>Go to your place’s Barangay Hall. Inform the officer that you are applying for a Barangay Clearance.</li>
+          <li>State the reason why you need a Barangay Clearance (ID requirement, employment, Postal ID, etc.).</li>
+          <li>Present your Cedula. You can also get this from the Barangay.</li>
+          <li>Pay the application and processing fees.</li>
+          <li>Wait for your Barangay Clearance to be released.</li>
+        </ul>
+        <p>You can get your Barangay Clearance in just a day. The fees are also minimum. Therefore, you do not have to worry that application for this can cause you stress. You can go to the Barangay Hall or Municipal Hall in your place to get more information regarding the process.</p>
+        
         <h4> Cedula </h4>
         <img src="assets/imgs/requirements/CEDULA.png">
-        <h4>Police Clearance<h4>
+        <p>A Community Tax Certificate (CTC), also known as Cedula, is issued to every individual or corporation upon payment of the community tax.  Every Filipino who is at least 18 years old and has been regularly employed for at least 30 consecutive working days must have his own cedula.  Business owners, real property owners, and all others who may be required by law must also apply for a cedula.</p>
+        <h5>How to get a Cedula:</h5>
+        <ul>
+          <li>Go to your local government office (barangay, municipal, or city hall) where CTCs are issued.</li>
+          <li>Fill out the application slip, submit, and pay the required amount.  The fee will depend on how much salary you are going to declare on the application slip.  Wait for the issuing officer to give you your CTC.</li>
+          <li>Sign and affix your thumbprint on the spaces provided on the CTC.</li>
+          <li>The Cedula is valid until the last day of the year when it was acquired.</li>
+        </ul>
+        
+        <h4>Police Clearance</h4>
         <img src="assets/imgs/requirements/POLICE CLEARANCE.jpg">
+
+        <p>A police clearance is one of the essential documents requested by a government agency or an employer to ensure that the applicant has no criminal record.</p>
+        <p>Depending on the person or agency requesting it, <b>you may be asked to get a police clearance either from your place of residence or place of work.</b></p>
+        <p>A police clearance issued in your place of residence can prove that you didn’t commit any crime in the barangay or town where you live.</p>
+        <p>Since the barangay clearance already serves this purpose, most employers ask their applicants to apply for a police clearance in the city where the company is located.</p>
+        
+        <p>How to get police clearance in 6 simple steps.</p>
+        <ul>
+          <li>
+            Know the police clearance requirements.
+            <ul>
+              <li>Personal appearance.</li>
+              <li>Police clearance application form.</li>
+              <li>Community tax certificate (cedula) and/or Barangay clearance.</li>
+              <li>Police clearance fee.</li>
+            </ul>
+          </li>
+          <li>Go to your local municipal office/city hall/city municipal police station.</li>
+          <li>Pay the police clearance fee at the treasurer’s office/treasury department.</li>
+          <li>Return to the police station for data encoding, photo capture, and biometrics.</li>
+          <li>Wait for your police clearance to be released.</li>
+        </ul>
+        <br/>
+        <br/>
+        <br/>
+
+        <p>Source:</p>
+        
+        <p><i>https://filipiknow.net/police-clearance/amp/?fbclid=IwAR15JvB-3tKEoZi7PYHSUyoVnCLBvqpPw0eKpYlXkrl1y49vZD96834KtRQ</i></p>
+        <p><i>https://faq.ph/how-to-get-a-barangay-clearance-in-the-philippines/?fbclid=IwAR2eGVnNx1MFfU9KIu2TYhuIYEqhNeGe2-b2MxoOldh4Qmaekjb7ptTG_ws</i></p>
+        <p><i>https://mastercitizen.wordpress.com/tag/how-to-get-a-cedula/</i></p>
       `
     }
   }
